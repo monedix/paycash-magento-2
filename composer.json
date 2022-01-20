@@ -1,5 +1,5 @@
 {
-    "name": "conekta/conekta_payments",
+    "name": "paycash/payments-2",
     "description": "Conekta payment gateway",
     "require": {
         "magento/module-sales": "^101.0.0|^102.0.0|^103.0.2",
@@ -17,7 +17,7 @@
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "Conekta\\Payments\\": ""
+            "Paycash\\Pay\\": ""
         }
     }
 }
